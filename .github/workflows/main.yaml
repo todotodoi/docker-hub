@@ -8,7 +8,7 @@ on:
     branches:
       - main
 env:
-  DOCKER_REPOSITORY: todotodoi/argocd-kube
+  DOCKER_REPOSITORY: todotodoi/docker-hub
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
